@@ -1,19 +1,17 @@
 /*  your css code here. If applicable */
-.book-library{
+.tittle{
 	background-color:#F0F0F0;
 	height:30px;
 	padding:20px;
 	text-align:center;
-	font-weight:700;
-	font-size:30px;
 }
-.book{
+.book-library{
 	background-color:#F0F0F0;
 	position:relative;
 	top:35px;
 	height:370px;
 }
-.image{
+.book{
 	border:1px solid;
 	position:relative;
 	top:25px;
@@ -23,8 +21,6 @@
 }
 .name{
 	padding:7px;
-	font-size:20px;
-	font-weight:600;
 }
 .author{
 	padding:7px;
@@ -39,7 +35,7 @@
 	width:640px;
 	height:30px;
 	padding:5px;
-	background-color:#2ecc71;
+	background-color:rgb(46, 204, 113);
 	border-radius:5px;
 	border:none;
 }
