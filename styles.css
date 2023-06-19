@@ -1,47 +1,34 @@
 /*  your css code here. If applicable */
-.tittle{
-	background-color:#F0F0F0;
-	height:30px;
-	padding:20px;
+body{
+	background-color:#ffffff;
 	text-align:center;
 }
 .book-library{
-	background-color:#F0F0F0;
-	position:relative;
-	top:35px;
-	height:400px;
+	background-color:#f8f8f8;
+	box-sizing:border-box;
+	box-shadow:1px 1px 1px 1px gray;
 }
-.book{
-	border:1px solid;
-	position:relative;
-	top:25px;
-	height:250px;
-	width:180px;
-	left:230px;
+h2{
+	text-align:left;
+	margin-left:5%;
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:0px;
 }
-.name{
-	padding:7px;
-}
-.author{
-	padding:7px;
+.author-name{
 	color:#777777;
-	position:relative;
-	top:-20px;
+	text-align:left;
+	margin-left:5%;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
 }
-.price{
-	position:relative;
-	text-align:center;
-	top:-40px;
-	left:10px;
-	width:630px;
-	height:30px;
-	padding:5px;
+.price-block{
+	vox-sizing:border-box;
 	background-color:rgb(46, 204, 113);
-	border-radius:8px;
-	border:none;
-}
-.space{
-	position:relative;
-	width:100px;
-	height:30px;
+	color:rgb(255,255,255);
+	max-width:90%;
+	margin-left:5%;
+	margin-bottom:10px;
+	
 }
